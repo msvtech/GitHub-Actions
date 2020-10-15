@@ -8,5 +8,5 @@ jobs:
       - name: Print a greeting in stdout
         uses: actions/hello-world-javascript-action@v1
         with:
-        who-to-greet: 'Manning book reader'
+          who-to-greet: 'Manning book reader'
     
