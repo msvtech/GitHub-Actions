@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting in stdout
-    uses: actions/hello-world-javascript-action@v1
-    with:
-    who-to-greet: 'Manning book reader'
+    - uses: actions/hello-world-javascript-action@v1
+    - with:
+    - who-to-greet: 'Manning book reader'
     
