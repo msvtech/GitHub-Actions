@@ -3,8 +3,8 @@ name: 1.6 Your first actions workflow
 on: [watch]
  
 jobs:
-greetings-from-actions:
-name: Greet our reader
-runs-on: ubuntu-latest
-steps:
-- run: echo "hello from GitHub Actions"
+    greetings-from-actions:
+        name: Greet our reader
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "hello from GitHub Actions"
